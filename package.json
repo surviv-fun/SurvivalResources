@@ -1,0 +1,33 @@
+{
+    "name": "survival-resourcepack",
+    "version": "1.0.0",
+    "description": "surviv.fun's resourcepack",
+    "main": "index.js",
+    "scripts": {
+        "prettier": "npx prettier --write .",
+        "build": "npm run prettier && node ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/surviv-fun/SurvivalResources.git"
+    },
+    "keywords": [
+        "resource",
+        "minecraft",
+        "pack",
+        "resourcepack",
+        "surviv.fun"
+    ],
+    "author": "LuciferMorningstarDev",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/surviv-fun/SurvivalResources/issues"
+    },
+    "homepage": "https://github.com/surviv-fun/SurvivalResources#readme",
+    "devDependencies": {
+        "prettier": "^2.7.1"
+    },
+    "dependencies": {
+        "zip-lib": "^0.7.3"
+    }
+}

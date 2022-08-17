@@ -1,0 +1,9 @@
+{
+    "pack": {
+        "pack_format": 9,
+        "description": [
+            { "text": "surviv.fun Resourcepack by ", "color": "gray" },
+            { "text": "LuciferMorningstarDev", "color": "dark_aqua" }
+        ]
+    }
+}

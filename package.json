@@ -4,6 +4,7 @@
     "description": "surviv.fun's resourcepack",
     "main": "index.js",
     "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
         "prettier": "npx prettier --write .",
         "build": "npm run prettier && node ."
     },

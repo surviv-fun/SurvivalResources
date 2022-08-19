@@ -6,7 +6,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "prettier": "npx prettier --write .",
-        "build": "npm run prettier && node ."
+        "build": "npm run prettier && npm run pack",
+        "pack": "node ."
     },
     "repository": {
         "type": "git",

@@ -4,9 +4,9 @@ const ZL = require('zip-lib');
 const outPath = './out/';
 const archiveName = 'SurvivalResourcePack.zip';
 
-if (fs.existsSync(`${outPath}${archiveName}`)) {
-    fs.renameSync(`${outPath}${archiveName}`, `${outPath}${archiveName.split('.').join(`_${Date.now()}.`)}`);
-}
+// if (fs.existsSync(`${outPath}${archiveName}`)) {
+//     fs.renameSync(`${outPath}${archiveName}`, `${outPath}${archiveName.split('.').join(`_${Date.now()}.`)}`);
+// }
 
 const zipperError = (err) => {
     console.log('Could not ZIP archive...');
